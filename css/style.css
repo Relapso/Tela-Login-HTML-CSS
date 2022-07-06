@@ -1,0 +1,66 @@
+body{
+    background-color: lightgrey;
+    font-family:sans-serif;
+}
+
+
+.form{
+    width: 400px;
+    margin: auto;
+    padding-top:200px;
+}
+
+
+.card{
+    box-shadow: 6px 6px 1px #ccc;
+    background-color:white;
+    padding: 30px;
+    border-radius:5px;
+}
+
+.card-top{
+    text-align:center;
+}
+
+.cardgrupo{
+    margin-bottom:13px;
+}
+
+.imglogin{
+    border-radius: 10px;
+    width:100px;
+}
+
+.titulologin{
+    color:#306bff;
+}
+
+.cardgrupo > label{
+    width: 100%;
+    color: lightgrey;
+    display:block;
+    
+}
+
+.cardgrupo > input{
+    border-radius: 5px;
+    outline: 0;
+    width:100%;
+    height:25px;
+    padding:5px;
+}
+
+
+.btn > button{
+    background-image:linear-gradient(to right,#5092ff,#306bff);
+    width:100%;
+    border-radius:30px;
+    padding:15px;
+    border:none;
+    color:white; 
+}
+
+.btn > button:hover{
+    background-image:linear-gradient(to right,#5092ff,#5092ff);
+}
+
